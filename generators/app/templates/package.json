@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jquery": "2.2.0",
+    "knockout": "3.4.1",
+    "requirejs": "latest",
+    "requirejs-text": "latest"
+  },
+  "devDependencies": {
+    "ncp": "latest"
+  },
+  "scripts": {
+    "devlib:js": "ncp node_modules/requirejs/require.js wwwroot/js/require.js & ncp node_modules/requirejs/bin/r.js wwwroot/js/r.js & ncp node_modules/knockout/build/output/knockout-latest.js wwwroot/js/knockout.js & ncp node_modules/jquery/dist/jquery.min.js wwwroot/js/jquery.js & ncp node_modules/requirejs-text/text.js wwwroot/js/text.js",
+    "compile:js": "node wwwroot/js/r.js -o wwwroot/js/require.build.js"
+  },
+  "-vs-binding":{"ProjectOpened":["devlib:js"]}
+}

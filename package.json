@@ -1,0 +1,24 @@
+{
+  "name": "generator-aspnetcore-mvc-ko",
+  "version": "1.0.0",
+  "description": "Yeoman Generator for an .NET Core Knockout/Require ready MVC App",
+  "files": [
+    "generators"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimbrouwers/generator-aspnetcore-mvc-ko.git"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "author": "Pim Brouwers <pimnation@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pimbrouwers/generator-aspnetcore-mvc-ko/issues"
+  },
+  "homepage": "https://github.com/pimbrouwers/generator-aspnetcore-mvc-ko#readme"
+}
